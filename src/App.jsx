@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import TradingLandingPage from "./Components/LandingPage.jsx"
 import TradingPage from "./Components/TradingDash.jsx";
-import Callback from "./components/Callback"; // Handles OAuth response
+import Callback from "./Components/Callback.jsx"; // Handles OAuth response
 
 function App() {
   return (
